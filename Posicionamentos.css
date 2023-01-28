@@ -1,0 +1,29 @@
+.conteudo1 {
+    border: 1 px solid red;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.conteudo2 {
+    border: 1 px solid red;
+    background-color: lightpink;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.conteudo3 {
+    border: 1 px solid red;
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+

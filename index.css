@@ -1,30 +1,26 @@
-.conteudo {
-    background-color: blueviolet;
-    border: 2px solid gray;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    float: left;
+body {
+    background-color: pink;
 }
 
-.conteudo1 {
-    background-color: violet;
-    border: 2px solid gray;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    float: left;
+#principal {
+width: 980px;
 }
 
-.conteudo2 {
-    background-color: violet;
-    border: 2px solid gray;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    float: left;
+.noticia {
+background: blanchedalmond;
+padding: 5px;
+width: 255px;
+margin: 5px;
+float: left;
 }
 
 .clear {
-    clear: left;
+    clear: both;
+}
+
+.imagem-galeria {
+    background: white;
+    width: 265Spx;
+    padding: 5px;
+    float: left;
 }
