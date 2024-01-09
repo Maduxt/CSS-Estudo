@@ -24,11 +24,21 @@
     <link rel="stylesheet" href="assets/css/receitas/receita-imagem.css">
     <link rel="stylesheet" href="assets/css/receitas/receita-titulo.css">
     <link rel="stylesheet" href="assets/css/receitas/receita-conteudo.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos-titulo.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos-descricao.css">
+    <link rel="stylesheet" href="assets/css/pessoas/pessoa-funcao.css">
+    <link rel="stylesheet" href="assets/css/pessoas/pessoas.css">
+    <link rel="stylesheet" href="assets/css/pessoas/pessoa.css">
+    <link rel="stylesheet" href="assets/css/pessoas/pessoa-imagem.css">
+    <link rel="stylesheet" href="assets/css/pessoas/pessoa-nome.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/logo.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="logo" alt="Fruta e Fruto" src="assets/logo.png">
+        <img class="logo" alt="Fruta e Fruto" src="assets/img/logo.png">
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__lista--itens"> <a class="link__ativo" href="#">Início</a></li>
@@ -36,14 +46,14 @@
                 <li class="menu__lista--itens"> <a class="menu__lista--link" href="#">Quem somos</a> </li>
                     <div class="comunidade">
                         <li class="menu__lista--itens"> <a class="menu__lista--link" href="#">Comunidade</a> </li>
-                        <li class="icon"> <img src="assets/arrow_icon.svg" alt="#"></li>
+                        <li class="icon"> <img src="assets/img/arrow_icon.svg" alt="#"></li>
                     </div>
             </ul>
         </nav>
     </header>
 
     <section class="banner">
-        <img class="banner__imagem" src="assets/Imagemdefundo.png">
+        <div class="banner__imagem"></div>
         <h1 class="banner__titulo">Reaproveite melhor os alimentos</h1>
     </section>
 
@@ -52,10 +62,9 @@
         <p class="sobre__paragrafo">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
     </section>
 
-    <section class="receitas__container">
-    <div class="receitas">
+    <section class="receitas">
         <div class="receita">
-            <img class="receita__imagem" src="assets/abacate.png" alt="Tigela de abacate">
+            <img class="receita__imagem" src="assets/img/abacate.png" alt="Tigela de abacate">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo"> Tigela de abacate</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
@@ -63,7 +72,7 @@
             </div>
         </div>
         <div class="receita">
-            <img class="receita__imagem" src="assets/kiwi.png" alt="Salada de Kiwi">
+            <img class="receita__imagem" src="assets/img/kiwi.png" alt="Salada de Kiwi">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Salada de kiwi</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
@@ -71,17 +80,15 @@
             </div>
         </div>
         <div class="receita">
-            <img class="receita__imagem" src="assets/mixVegetais.png" alt="Mix de vegetais">
+            <img class="receita__imagem" src="assets/img/mixVegetais.png" alt="Mix de vegetais">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Mix de vegetais</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
                 <button class="receita__botao">Ver receita</button>
             </div>
         </div>
-    </div>
-    <div class="receitas">
         <div class="receita">
-            <img class="receita__imagem" src="assets/pimentao.png" alt="Pimentões à Juliana">
+            <img class="receita__imagem" src="assets/img/pimentao.png" alt="Pimentões à Juliana">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Pimentões à Juliana</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
@@ -89,7 +96,7 @@
             </div>
         </div>
         <div class="receita">
-            <img class="receita__imagem" src="assets/bowl.png" alt="Bowl de comida oriental">
+            <img class="receita__imagem" src="assets/img/bowl.png" alt="Bowl de comida oriental">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Prato oriental</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
@@ -97,46 +104,46 @@
             </div>
         </div>
         <div class="receita">
-            <img class="receita__imagem" src="assets/betteraba.png" alt="Tigela de beterraba">
+            <img class="receita__imagem" src="assets/img/betteraba.png" alt="Tigela de beterraba">
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Beterrabas assadas</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
                 <button class="receita__botao">Ver receita</button>
             </div>
         </div>
+</section>
+
+<section class="quem__somos">
+    <h1 class="quem__somos--titulo">Quem somos</h1>
+    <p class="quem__somos--descricao">Conheça a comunidade por trás da iniciativa</p>
+
+    <div class="pessoas">
+        <div class="pessoa">
+            <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+            <span class="pessoa__nome">Roberta</span>
+            <span class="pessoa__funcao">Conteúdo</span>
+        </div>
+        <div class="pessoa">
+            <div class="pessoa__imagem pessoa__imagem--marcela"> </div>
+            <span class="pessoa__nome">Marcela</span>
+            <span class="pessoa__funcao">Chef de Cozinha</span>
+        </div>
+        <div class="pessoa">
+            <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+            <span class="pessoa__nome">Andréia</span>
+            <span class="pessoa__funcao">Pequena Produtora</span>
+        </div>
     </div>
 </section>
 
-<section>
-    <h1>Quem somos</h1>
-    <h2>Conheça a comunidade por trás da iniciativa</h2>
-</section>
-
-<section>
+<footer class="rodape">
+    <div>Contato</div>
     <div>
-        <div>
-            <img src="assets/Roberta.png" alt="Moça sorrindo">
-            <h3>Roberta</h3>
-        </div>
-        <div>
-            <img src="assets/Marcela.png" alt="Moça sorrindo">
-            <h3>Marcela</h3>
-        </div>
-        <div>
-            <img src="assets/Andréia.png" alt="Moça sorrindo">
-            <h3>Andréia</h3>
-        </div>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="contato">Contato</div>
-    <div>
-        <a>
-            <img src="assets/Whatsapp.svg" alt="Logo Whatsapp">
+        <a href="https://www.whatsapp.com">
+            <img src="assets/img/Whatsapp.svg" alt="Logo Whatsapp">
         </a>
-        <a>
-            <img src="assets/Facebook.svg" alt="Logo Facebook">
+        <a href="https://www.facebook.com">
+            <img src="assets/img/Facebook.svg" alt="Logo Facebook">
         </a>
     </div>
 </footer>
