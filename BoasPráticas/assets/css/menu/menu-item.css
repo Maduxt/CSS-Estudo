@@ -1,0 +1,16 @@
+.menu__lista--itens {
+    list-style: none;
+}
+
+.menu__lista--itens:last-child .menu-lista-link {
+    margin-right: 0;
+}
+
+.comunidade {
+    display: flex;
+    list-style: none;
+}
+
+.icon {
+    margin-left: -15px;
+}
